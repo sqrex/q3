@@ -87,13 +87,12 @@ data:
     bot:
       minPlayers: 3
     game:
-      motd: "Welcome to Quake on OpenShift"
+      motd: "Welcome to Quake 3 on OpenShift"
       type: FreeForAll
       forceRespawn: false
-      inactivity: 20m
+      inactivity: 10m
       quadFactor: 3
       weaponRespawn: 3
-      password: "eskom"
     server:
       hostname: "quakekube"
       maxClients: 12
