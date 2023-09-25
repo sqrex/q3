@@ -4,21 +4,22 @@ metadata:
   name: quake3-server-config
 data:
   config.yaml: |
-    fragLimit: 25
+    fragLimit: 15
     timeLimit: 15m
     bot:
-      minPlayers: 3
+      minPlayers: 4
     game:
-      motd: "Welcome to Critical Stack"
+      motd: "Welcome to OpenShift Quake 3 Server"
       type: FreeForAll
       forceRespawn: false
-      inactivity: 10m
+      inactivity: 30m
       quadFactor: 3
       weaponRespawn: 3
+      password: "summit"
     server:
       hostname: "quakekube"
       maxClients: 12
-      password: "changeme"
+      password: "openshift"
     commands:
       - addbot sarge 2
       - seta r_customheight “1440”
