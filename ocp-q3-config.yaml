@@ -5,7 +5,7 @@ metadata:
 data:
   config.yaml: |
     fragLimit: 15
-    timeLimit: 15m
+    timeLimit: 10m
     bot:
       minPlayers: 4
     game:
@@ -22,9 +22,10 @@ data:
       password: "openshift"
     commands:
       - addbot sarge 2
+      - addbot crash 1
       - seta r_customheight “1440”
       - seta r_customwidth “2560”
-      - seta r_mode “3”
+      - seta r_mode “-1”
       - seta cg_fov “120”
     maps:
     - name: q3dm7
